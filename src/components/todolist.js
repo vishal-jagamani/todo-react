@@ -42,7 +42,7 @@ function Todolist({ data, updateCount, count, setUpdate }) {
     return (
 
         <div className="tablelist">
-            <nav aria-label="Page navigation example">
+            {/* <nav aria-label="Page navigation example">
                 <ul class="pagination">
                     <li class="page-item">
                         <a class="page-link" href="#" aria-label="Previous">
@@ -60,7 +60,7 @@ function Todolist({ data, updateCount, count, setUpdate }) {
                         </a>
                     </li>
                 </ul>
-            </nav>
+            </nav> */}
             <br /><button onClick={logout} className="btn btn-primary logout-btn">Log Out</button>
             <br /><p className="h1">Tasks</p>
             <table className="table table-dark table-hover" id="tasklist">
