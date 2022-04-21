@@ -16,7 +16,7 @@ code {
 }
 
 
-@media only screen and (min-width: 400px) {
+@media only screen and (max-width: 450px) {
   .logout-btn {
     font-size: 1.5vh;
     position: absolute;
@@ -26,6 +26,7 @@ code {
   }
 
   .add-form {
+    font-size: 1.5vh;
     border-left: 4px solid aqua;
     border-right: 4px solid aqua;
     border-bottom: 4px solid aqua;
@@ -49,6 +50,7 @@ code {
   }
 
   .btn-class {
+    font-size: 1.5vh;
     display: flex;
     width: 70%;
     margin-left: -5%;
@@ -61,6 +63,7 @@ code {
   }
 
   .submit-btn {
+    font-size: 1.5vh;
     margin-left: 20%;
     margin-top: 10%;
   }
@@ -72,7 +75,7 @@ code {
 }
 
 
-@media only screen and (min-width: 480px) {
+/* @media only screen and (min-width: 480px) {
   .logout-btn {
     position: absolute;
     margin-left: 22%;
@@ -119,7 +122,7 @@ code {
     margin-left: 4%;
     margin-right: 4%;
   }
-}
+} */
 
 
 @media only screen and (min-width: 600px) {

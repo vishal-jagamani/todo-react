@@ -146,7 +146,7 @@ function Login() {
         </p>
       </div>
 
-      <div className="modal fade" id="staticBackdrop" data-bs-keyboard="false">
+      <div className="modal fade register-modal" id="staticBackdrop" data-bs-keyboard="false">
         <div className="modal-dialog modal-dialog-centered">
           <div className="modal-content bg-dark text-light">
             <div className="modal-header text-light">
@@ -203,7 +203,7 @@ function Login() {
               <br />
               <div className="col-md-6">
                 <label for="inputEmail4" className="form-label">
-                  Confrim Password
+                  Confirm Password
                 </label>
                 <input
                   type="password"
