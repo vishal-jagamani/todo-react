@@ -81,7 +81,7 @@ function Login() {
         })
             .then((response) => {
                 alert("Registration Successfull");
-                navigate("/");
+                navigate("/login");
             })
             .catch((err) => {
                 console.log(err);
