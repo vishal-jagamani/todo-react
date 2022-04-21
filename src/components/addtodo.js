@@ -18,6 +18,7 @@ function Addtodo({ updateCount, count, update }) {
 
 
     let updateTask = (update) => {
+        debugger;
         setId(update.id);
         setTodo(update.name);
         setDate(update.date);
@@ -25,13 +26,13 @@ function Addtodo({ updateCount, count, update }) {
 
     let updateDetails = (e) => {
         e.preventDefault();
-
+        debugger;
         var data = {
             id,
             task,
             date,
         };
-
+        debugger;
         fetch("https://vishal-node.herokuapp.com/updateData", {
             method: "PATCH",
             headers: {
@@ -53,7 +54,7 @@ function Addtodo({ updateCount, count, update }) {
         e.preventDefault();
         console.log(task);
         console.log(date);
-
+        debugger;
         var data = {
             task,
             date,
