@@ -66,7 +66,7 @@ function Login() {
     var data = {
       name: regName,
       email: regEmail,
-      password1: regPassword,
+      password: regPassword,
     };
     console.log(data);
 
