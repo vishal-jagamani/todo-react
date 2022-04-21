@@ -42,25 +42,6 @@ function Todolist({ data, updateCount, count, setUpdate }) {
     return (
 
         <div className="tablelist">
-            {/* <nav aria-label="Page navigation example">
-                <ul class="pagination">
-                    <li class="page-item">
-                        <a class="page-link" href="#" aria-label="Previous">
-                            <span aria-hidden="true">&laquo;</span>
-                            <span class="sr-only"></span>
-                        </a>
-                    </li>
-                    <li class="page-item"><a class="page-link" href="#">1</a></li>
-                    <li class="page-item"><a class="page-link" href="#">2</a></li>
-                    <li class="page-item"><a class="page-link" href="#">3</a></li>
-                    <li class="page-item">
-                        <a class="page-link" href="#" aria-label="Next">
-                            <span aria-hidden="true">&raquo;</span>
-                            <span class="sr-only"></span>
-                        </a>
-                    </li>
-                </ul>
-            </nav> */}
             <br /><button onClick={logout} className="btn btn-primary logout-btn">Log Out</button>
             <br /><p className="h1">Tasks</p>
             <table className="table table-dark table-hover" id="tasklist">
