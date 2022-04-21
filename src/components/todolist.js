@@ -32,18 +32,8 @@ function Todolist({ data, updateCount, count, setUpdate }) {
     updateCount(count + 1);
   };
 
-  //logout function
-  let logout = () => {
-    document.cookie = "cname" + "=;expires=Thu, 01 Jan 1970 00:00:00 GMT";
-    navigate("/");
-  };
-
   return (
     <div className="tablelist">
-      <br />
-      <button onClick={logout} className="btn btn-primary logout-btn">
-        Log Out
-      </button>
       <br />
       <p className="h1">Tasks</p>
       <table className="table table-dark table-hover" id="tasklist">
