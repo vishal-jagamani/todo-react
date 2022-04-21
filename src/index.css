@@ -15,6 +15,63 @@ code {
   letter-spacing: 2px;
 }
 
+
+@media only screen and (min-width: 400px) {
+  .logout-btn {
+    font-size: 1.5vh;
+    position: absolute;
+    margin-left: 25%;
+    margin-top: -16%;
+    width: 20%;
+  }
+
+  .add-form {
+    border-left: 4px solid aqua;
+    border-right: 4px solid aqua;
+    border-bottom: 4px solid aqua;
+    margin-top: -9%;
+  }
+
+  .tablelist th {
+    color: aqua;
+  }
+
+  .tablelist {
+    font-size: 1.2vh;
+    margin-left: -2%;
+    border-left: 4px solid aqua;
+    border-right: 4px solid aqua;
+    height: 103%;
+    width: 104%;
+  }
+  .table-btn{
+    font-size: 1.2vh;
+  }
+
+  .btn-class {
+    display: flex;
+    width: 70%;
+    margin-left: -5%;
+  }
+
+  .h2,
+  .h1 {
+    color: aqua;
+    text-align: center;
+  }
+
+  .submit-btn {
+    margin-left: 20%;
+    margin-top: 10%;
+  }
+
+  .col {
+    margin-left: 4%;
+    margin-right: 4%;
+  }
+}
+
+
 @media only screen and (min-width: 480px) {
   .logout-btn {
     position: absolute;

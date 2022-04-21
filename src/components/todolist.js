@@ -54,7 +54,7 @@ function Todolist({ data, updateCount, count, setUpdate }) {
                 <td>{listValue.date.slice(0, 10)}</td>
                 <td>
                   <button
-                    className="btn btn-primary"
+                    className="btn btn-primary table-btn"
                     id="updateBtn"
                     onClick={() =>
                       updateData(
@@ -67,7 +67,7 @@ function Todolist({ data, updateCount, count, setUpdate }) {
                     Update
                   </button>{" "}
                   <button
-                    className="btn btn-warning"
+                    className="btn btn-warning table-btn"
                     id="updateBtn"
                     onClick={() => deleteTask(listValue.id)}
                   >
