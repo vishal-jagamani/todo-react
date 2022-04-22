@@ -93,10 +93,10 @@ function Login() {
   };
 
   return (
-    <div className="Login bg-dark">
-      <div className="form-class-body bg-dark">
-        <form className="form-class bg-dark text-light">
-          <p className="h2 text-light">LOGIN FORM</p>
+    <div className="Login">
+      <div className="form-class-body">
+        <form className="form-class">
+          <p className="h2">LOGIN FORM</p>
           <br />
           <div className="col-md-6">
             <label for="inputEmail4" className="form-label">
@@ -137,7 +137,7 @@ function Login() {
         </form>
         <p className="h5 text-light sign-up-link">
           <button
-            className="sign-up-btn bg-dark text-primary"
+            className="sign-up-btn text-primary"
             data-bs-toggle="modal"
             data-bs-target="#staticBackdrop"
           >
@@ -148,20 +148,20 @@ function Login() {
 
       <div className="modal fade register-modal" id="staticBackdrop" data-bs-keyboard="false">
         <div className="modal-dialog modal-dialog-centered">
-          <div className="modal-content bg-dark text-light">
-            <div className="modal-header text-light">
+          <div className="modal-content">
+            <div className="modal-header">
               <h5 className="modal-title h4" id="exampleModalLabel">
                 Registration Form
               </h5>
               <button
                 type="button"
-                className="btn-close btn-close-white"
+                className="btn-close"
                 data-bs-dismiss="modal"
                 aria-label="Close"
               ></button>
             </div>
             <br />
-            <form className="text-light signup-form">
+            <form className="signup-form">
               <div className="col-md-6">
                 <label for="inputName2" className="form-label">
                   Name

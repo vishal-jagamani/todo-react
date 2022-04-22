@@ -95,7 +95,7 @@ function Addtodo({ updateCount, count, update, getData}) {
         <br />
         <input type="hidden" name="" value="" id="hiddenid" />
         <div className="col-12">
-          <label for="inputAddress2" className="form-label text-light" id="">
+          <label for="inputAddress2" className="form-label" id="">
             Work to do...
           </label>
           <input
@@ -108,7 +108,7 @@ function Addtodo({ updateCount, count, update, getData}) {
           />
         </div>
         <div className="col-12">
-          <label for="inputAddress2" className="form-label text-light" id="">
+          <label for="inputAddress2" className="form-label" id="">
             Deadline Date
           </label>
           <input

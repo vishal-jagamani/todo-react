@@ -37,7 +37,7 @@ function Todolist({ data, updateCount, count, setUpdate, getData }) {
     <div className="tablelist">
       <br />
       <p className="h1">Tasks</p>
-      <table className="table table-dark table-hover" id="tasklist">
+      <table className="table table-hover" id="tasklist">
         <thead>
           <tr>
             <th scope="col">#</th>

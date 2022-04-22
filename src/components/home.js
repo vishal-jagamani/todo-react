@@ -32,9 +32,9 @@ function Home() {
   }, [count]);
 
   return (
-    <div className="App bg-dark">
+    <div className="App">
       <h1 className="h1 title p-3">TODO APP</h1>
-      <div className="container body-container bg-dark">
+      <div className="container body-container">
         <div className="row">
           <div className="col">
             <Addtodo updateCount={updateCount} count={count} update={update} getData={getData}/>
