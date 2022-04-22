@@ -74,57 +74,6 @@ code {
   }
 }
 
-
-/* @media only screen and (min-width: 480px) {
-  .logout-btn {
-    position: absolute;
-    margin-left: 22%;
-    margin-top: -14%;
-    width: 25%;
-  }
-
-  .add-form {
-    border-left: 4px solid aqua;
-    border-right: 4px solid aqua;
-    border-bottom: 4px solid aqua;
-    margin-top: -8%;
-  }
-
-  .tablelist th {
-    color: aqua;
-  }
-
-  .tablelist {
-    margin-left: -2%;
-    border-left: 4px solid aqua;
-    border-right: 4px solid aqua;
-    height: 103%;
-    width: 104%;
-  }
-
-  .btn-class {
-    display: flex;
-    width: 60%;
-  }
-
-  .h2,
-  .h1 {
-    color: aqua;
-    text-align: center;
-  }
-
-  .submit-btn {
-    margin-left: 20%;
-    margin-top: 10%;
-  }
-
-  .col {
-    margin-left: 4%;
-    margin-right: 4%;
-  }
-} */
-
-
 @media only screen and (min-width: 600px) {
   .logout-btn {
     position: absolute;

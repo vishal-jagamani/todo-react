@@ -3,7 +3,7 @@ import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { useCookies } from "react-cookie";
 
-function Todolist({ data, updateCount, count, setUpdate }) {
+function Todolist({ data, updateCount, count, setUpdate, getData }) {
   const [cookies, setCookie, removecCookie] = useCookies(["cookie-name"]);
 
   console.log(data);
@@ -30,6 +30,7 @@ function Todolist({ data, updateCount, count, setUpdate }) {
       body: JSON.stringify(payload),
     });
     updateCount(count + 1);
+    getData();
   };
 
   return (

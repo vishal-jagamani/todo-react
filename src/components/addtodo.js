@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import "../index.css";
 
-function Addtodo({ updateCount, count, update }) {
+function Addtodo({ updateCount, count, update, getData}) {
   const [id, setId] = useState("");
   const [task, setTodo] = useState("");
   const [date, setDate] = useState("");
@@ -17,8 +17,11 @@ function Addtodo({ updateCount, count, update }) {
     }
   }, [update]);
 
+  // useEffect(()=>{
+  //   getData();
+  // },[]);
+
   let updateTask = (update) => {
-    debugger;
     setId(update.id);
     setTodo(update.name);
     setDate(update.date);
@@ -47,7 +50,8 @@ function Addtodo({ updateCount, count, update }) {
     setId("");
     setTodo("");
     setDate("");
-    updateCount(count + 1);
+    updateCount(count+1);
+    getData();
   };
 
   let addTask = (e) => {
@@ -72,6 +76,8 @@ function Addtodo({ updateCount, count, update }) {
     setTodo("");
     setDate("");
     updateCount(count + 1);
+    console.log(count);
+    getData();
   };
   //Logout function
   let logout = () => {
