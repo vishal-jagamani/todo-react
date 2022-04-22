@@ -1,4 +1,35 @@
-@media only screen and (max-width: 450px) {
+@media only screen and (max-width: 440px){
+    .h2 {
+        text-align: center;
+    }
+    .form-class {
+        /* margin-left: 3%; */
+        padding: 10%;
+        width: 45vh;
+        height: 100vh;
+    }
+    .form-class-body {
+        margin-left: 3%;
+        padding: 10%;
+        width: 40vh;
+        height: 100vh;
+    }
+    .submit-btn {
+        width: 40%;
+        margin-left: 20%;
+    }
+    .sign-up-btn {
+        position: absolute;
+        width: 80%;
+        padding: 0;
+        border: none;
+        text-decoration: underline;
+        /* margin-left: -15%; */
+        margin-top: -80%;
+    }
+}
+
+@media only screen and (min-width: 450px) {
     .body {
         display: flex;
         justify-content: center;
