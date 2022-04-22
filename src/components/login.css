@@ -43,7 +43,7 @@
         border: none;
         text-decoration: underline;
         /* margin-left: -15%; */
-        margin-top: -80%;
+        margin-top: -160%;
     }
 }
 
@@ -85,6 +85,7 @@
         border: none;
         text-decoration: underline;
         margin-left: -15%;
+        margin-top: -20%;
     }
 
     .signup-form {
