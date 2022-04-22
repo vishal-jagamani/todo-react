@@ -1,18 +1,4 @@
-/* @media only screen and (max-width: 520px) {
-    /* .sign-up-link{
-        margin-top: 100%;
-    }
-    .sign-up-btn {
-        /* position: absolute; */
-width: 80%;
-padding: 0;
-border: none;
-text-decoration: underline;
-/* margin-top: 80%; */
-
-
-
-*/ @media only screen and (max-width: 440px) {
+@media only screen and (max-width: 440px) {
     .h2 {
         text-align: center;
     }
